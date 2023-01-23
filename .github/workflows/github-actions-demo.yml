@@ -13,5 +13,4 @@ jobs:
         with:
           java-version: 11
       - name: Build JAR
-        run: |
-          ./gradlew build
+        run: mvn clean install
